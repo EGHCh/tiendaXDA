@@ -1,0 +1,46 @@
+//This file is for create your style with relation on space of navbar
+.navbar {
+  padding: 0em;
+  height: 6em;
+
+  .navbar__logo {
+    background-color: $smoky-black;
+    height: 100%;
+    width: 6em;
+    font-weight: 700;
+    display: flex;
+  }
+  .navbar-brand {
+    font-size: $x-large;
+    font-family: 'Old Standard TT', serif;
+    color: $isabelline;
+    margin: auto;
+    align-self: center;
+  }
+  .navbar-toggler {
+    margin-right: 5%;
+    border-color: transparent;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+    font-size: $x-large;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-right: 1em;
+  }
+  .navbar-nav {
+    gap: 1em;
+    .nav-item {
+      color: $smoky-black;
+    }
+  }
+}
+@media (min-width:768px) {
+  .navbar {
+    height: 10em;
+
+    .navbar__logo {
+      width: 10em;
+    }
+  }
+}

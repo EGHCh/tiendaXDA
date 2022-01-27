@@ -1,0 +1,41 @@
+.newsletter {
+  display: flex;
+  
+  &__title {
+    font-size: $xx-large;
+    margin: 0;
+  }
+  &__form {
+    font-family: 'Rale-way';
+    background-color: $smoky-black;
+    padding: 1em 4em;
+    color: $white;
+    height: 15em;
+    width: 90%;
+    
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      font-family: 'Rale-way';
+      font-size: $large;
+    }
+    input {
+      height: 3em;
+      text-decoration: none;
+    }
+  }
+  
+  &__submit {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    button {
+      font-family: 'Old Standard TT', serif;
+      font-size: $x-large;
+      font-weight: 700;
+      writing-mode: vertical-lr;
+    }
+  }
+}
